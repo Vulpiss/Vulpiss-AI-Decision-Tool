@@ -1,0 +1,46 @@
+
+DECISION REPORT
+===============
+
+Decision: Purchase new equipment
+Type: capex_purchase
+Time Horizon: 18 months
+Cost: 12000
+Expected Upside: 22000
+Reversible: True
+
+RISK OUTPUT
+-----------
+Risk Score: 32/100
+Risk Band: LOW
+Scoring Notes:
+- Long time horizon increases exposure to changing conditions.
+
+ANALYSIS
+--------
+Summary: This is a low-risk decision with a score of 32/100. The main drivers are: Long time horizon increases exposure to changing conditions.
+Recommendation: GO
+Confidence: 3/5
+
+Risk Factors:
+- Long time horizon increases exposure to changing conditions.
+
+Upside Factors:
+- Expected upside is higher than upfront cost.
+- The decision is reversible, reducing long-term downside.
+- Knowledge level is strong enough to support execution.
+
+Scenarios:
+- Best Case: Execution is disciplined, assumptions hold, and the upside is realized on schedule.
+- Base Case: The decision performs close to expectations, but requires active monitoring and mitigation.
+- Worst Case: Key assumptions fail, cost is sunk, and recovery options are limited.
+
+Mitigations:
+- Validate the core assumptions before committing full budget.
+- Break the decision into stages with review checkpoints.
+
+Missing Information:
+- None
+
+Red Flags:
+- None

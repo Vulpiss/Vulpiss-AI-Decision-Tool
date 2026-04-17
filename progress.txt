@@ -1,0 +1,55 @@
+Luty
+23 - Postawienie zadania związanego z analizą ryzyka
+24 -  Postawienie podstawowej funkcji, jaki problem ma rozwiązywać program
+25 - Stworzenie wstępnej architektury(MVP)
+26 - Stworzenie listy wymagań
+27 - Przygotowanie wstępnej struktury projektu
+28 - Zdefiniowanie modelu  decyzji
+Marzec
+1 - Stworzenie Frameworku/Prompta dla LLM
+2 - Update Frameworku
+3 - Stworzenie  Pliku  ReadMe
+4 - Uporządkowanie struktury projektu
+5 - Stworzenie Pliku Głównego - main.py
+7 - Stworzenie pliku llm_analysis.py
+8 - Stworzenie pliku database.py
+9 - Stworzenie pliku risk_scoring.py
+10 - Stworzenie pliku models.py
+11 - Stworzenie pliku report_generator.py
+12 - Stworzenie pliku dataset_evaluator.py
+13 - Update Struktury Projektu
+14 - Wygenerowanie Argentic Data dla projektu w json - dataset 2500
+15 - Update main.py
+16 - Analiza wyniku wygenerowanego przez main.py
+17 - Stworzenie pliku generate_dataset_v2.py
+18 - Update pliku generate_dataset_v3 oraz nowego datasetu
+19 - Przebudowa llm_analysis, walidacja, fallback, update report_generator stworzenie consistency, update pliku main
+20 - Przygotowanie llm_analysis_v2 aby było gotowe do zastosowania w nim API
+21 - Wygenerowanie i podpięcie klucza API do aplikacji
+22 - Update pliku llm_analysis do llm_analysis_v3
+23 - Ustawienie klucza do API
+24 - Przejrzenie oferty billingu na klucz API, kupno i ustawienie limitu środków
+25 - Stworzenie pliku recomendations.py i włączenie go do działamia llm_analysis
+26 - Stworzenie pliku recommendatiuon_policy.py i przebudowa main, llm_analysis, report_generator, models, consistency i database
+27 - Zmiana składu argumentów do zapisania w main sekcji save_log
+28 - Zmiana pliku dataset_evaluator aby brał pod uwagę plik recomendations.py
+29 - Dodanie Risk Score Breakdown i zmiana report_generator, models, risk_scoring do uwzględnienia Risk Score Breakdown
+30 - Dodanie do pliku dataset_evaluator funkcji confusion matrix
+31 - Opracowanie 15 test casów
+Kwiecień
+1 - Dodanie do folderu tests podfolder manual cases oraz stworzenie pliku json manual_cases
+2 - Test programu zakończony poprawnym outputem
+3 - Stworzenie Szablonu formularza dla użytkownika
+4 - Stworzenie pliku interactive_intake oraz zastosowanie szblonu formularza
+5 - Update pliku main aby przyjmował formularze użytkownika
+6 - Opracowanie prostego GUI
+7 - Update pliku Readme
+8 - Stworzenie pliku Exe do uruchamiania GUI
+9 - Przygotowanie programu pod możliwość eksportu i importu raportów
+10 - Update pliku gui_app
+11 - Update pliku main
+12 - Stworzenie nowego schematu  tabeli  i update pliku  database
+13 - Usunięcie starego pliku Decisions i uruchomienie zaktualizowanego programu
+14 - Stwrozenie nowego pliku exe GUI
+15 - Update pliku Read Me
+16 - Przygotowanie Screanów

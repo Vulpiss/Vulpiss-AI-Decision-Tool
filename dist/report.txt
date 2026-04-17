@@ -1,0 +1,92 @@
+DECISION REPORT
+===============
+
+Decision: Purchase new equipment
+Type: capex_purchase
+Time Horizon: 18 months
+Cost: 12000.0
+Expected Upside: 22000.0
+Reversible: True
+
+RISK OUTPUT
+-----------
+Risk Score: 45/100
+Risk Band: MEDIUM
+
+Score Breakdown:
+- uncertainty: 8
+- knowledge_gap: 6
+- reversibility: 4
+- time_horizon: 15
+- financial_exposure: 12
+
+Scoring Notes:
+- The decision is reversible, which limits long-term downside.
+- Long time horizon increases the chance that assumptions will drift.
+- Financial exposure is non-trivial relative to upside.
+
+CONSISTENCY CHECK
+-----------------
+Consistent: True
+Severity: NONE
+Message: Recommendation is consistent with risk band.
+
+ANALYSIS
+--------
+Summary: Medium-risk capex with positive upside but unvalidated demand. Proceed via a staged or scope-reduced path to confirm throughput gains before full purchase.
+Recommendation: PIVOT
+Confidence: 3/5
+
+Policy Notes:
+- Medium-risk decision may proceed only after scope reduction or staged execution.
+
+Risk Factors:
+- 18‑month horizon increases assumption drift risk
+- Demand assumptions not fully validated
+- Financial exposure is meaningful relative to upside
+- Potential underutilization if demand falls short
+- Integration/installation downtime and learning curve
+- Ongoing operating costs (maintenance, consumables, training) may erode ROI
+- Technology/obsolescence risk over the time horizon
+- Opportunity cost of capital versus other initiatives
+
+Upside Factors:
+- Throughput increase can unlock incremental revenue
+- Decision is reversible, limiting long‑term downside
+- Higher knowledge level reduces execution risk
+- Potential quality and lead‑time improvements
+- Possible tax/depreciation benefits
+
+Scenarios:
+- Best Case: Demand materializes and throughput gains meet or exceed plan; rapid ramp with minimal downtime; payback well within the horizon and strong ROI.
+- Base Case: Partial demand validation; phased deployment confirms gains; breakeven late in the horizon with moderate ROI.
+- Worst Case: Demand fails to materialize; equipment underutilized; ROI weak, with salvage/re-sale needed to cap losses and regain capacity/floor space.
+
+Mitigations:
+- Stage the investment (pilot or limited units) with clear exit gates
+- Validate demand via pre‑orders, LOIs, or firm pipeline thresholds before full rollout
+- Consider leasing/renting or buying refurbished to reduce upfront exposure
+- Negotiate vendor trial, buyback, or return terms and service SLAs
+- Quantify total cost of ownership, including maintenance, training, and downtime
+- Schedule installation to minimize operational disruption and run acceptance tests
+- Track KPIs (throughput, yield, utilization) during pilot with go/no‑go criteria
+- Plan a resale/repurpose path to preserve reversibility
+- Assign an owner for integration, training, and change management
+- Conduct sensitivity analysis on demand and utilization
+
+Missing Information:
+- Validated demand forecast and conversion assumptions
+- Current capacity utilization and exact throughput bottlenecks
+- Detailed ROI/TCO model including operating costs and downtime
+- Vendor terms (trial, return, buyback, warranty, SLAs)
+- Lead time, installation plan, and required operator training
+- Resale value and secondary market liquidity
+- Facility requirements (space, power, safety/compliance)
+- Comparative options (lease/rent/outsourcing) and financing terms
+
+Red Flags:
+- Unvalidated demand is the primary driver of value
+- Long time horizon relative to market volatility
+- Upside margin over cost may be sensitive to utilization
+- Hidden OPEX and integration risks could compress ROI
+- Potential single‑vendor lock‑in without protective terms

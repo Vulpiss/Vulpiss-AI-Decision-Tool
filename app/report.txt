@@ -1,0 +1,97 @@
+DECISION REPORT
+===============
+
+Decision: Purchase new equipment
+Type: capex_purchase
+Time Horizon: 18 months
+Cost: 12000
+Expected Upside: 22000
+Reversible: True
+
+RISK OUTPUT
+-----------
+Risk Score: 45/100
+Risk Band: MEDIUM
+
+Score Breakdown:
+- uncertainty: 8
+- knowledge_gap: 6
+- reversibility: 4
+- time_horizon: 15
+- financial_exposure: 12
+
+Scoring Notes:
+- The decision is reversible, which limits long-term downside.
+- Long time horizon increases the chance that assumptions will drift.
+- Financial exposure is non-trivial relative to upside.
+
+CONSISTENCY CHECK
+-----------------
+Consistent: True
+Severity: NONE
+Message: Recommendation is consistent with risk band.
+
+ANALYSIS
+--------
+Summary: Medium-risk, reversible capex aimed at increasing throughput over 18 months; pivot via staged execution to validate demand and limit exposure.
+Recommendation: PIVOT
+Confidence: 3/5
+
+Policy Notes:
+- Medium-risk decision may proceed only after scope reduction or staged execution.
+
+Risk Factors:
+- 18-month horizon increases assumption drift and market changes
+- Demand assumptions not fully validated; utilization risk
+- Non-trivial capital outlay relative to upside; payback sensitive to volume
+- Implementation risk: installation downtime and ramp-up learning curve
+- Ongoing maintenance, consumables, and energy costs may erode ROI
+- Vendor reliability, parts availability, and potential tech obsolescence
+- Upstream/downstream bottlenecks may cap realized throughput
+- Reversibility depends on uncertain resale/return terms
+
+Upside Factors:
+- Higher throughput enabling revenue lift and backlog reduction
+- Lower unit costs from efficiency gains
+- Shorter lead times improving win rate and customer satisfaction
+- Quality/consistency improvements reducing rework and scrap
+- Potential energy efficiency and tax/depreciation benefits
+- Option value: scalable capacity if demand materializes
+
+Scenarios:
+- Best Case: Demand meets/exceeds forecast; quick ramp to target throughput; minimal downtime; payback within ~6–9 months and sustained margin lift.
+- Base Case: Throughput improves as expected; demand grows modestly; staged rollout confirms assumptions; payback within ~12–15 months, meeting ROI threshold.
+- Worst Case: Demand lags; equipment underutilized; longer installation/ramp; higher TCO than planned; limited resale recovery; negative return over horizon.
+
+Mitigations:
+- Stage the purchase (pilot line or limited units) with clear KPI gates (utilization, cycle time, yield).
+- Use rental/lease or negotiated return/resale clauses to preserve reversibility.
+- Pre-validate demand via preorders, contracts, or pricing tests before full rollout.
+- Complete TCO analysis covering maintenance, consumables, energy, and operator time.
+- Develop an installation and changeover plan to minimize downtime; schedule during low-demand windows.
+- Conduct vendor due diligence: warranty, SLAs, spare parts lead times, and upgrade paths.
+- Run on-site trials to verify throughput gains and compatibility with existing processes.
+- Define exit criteria and a kill-switch if KPIs are missed; tranche funding accordingly.
+- Provide operator training and SOPs to accelerate ramp and reduce quality losses.
+
+Missing Information:
+- Validated demand forecast and signed customer commitments
+- Baseline throughput, current bottlenecks, and end-to-end capacity map
+- Full TCO: maintenance, consumables, energy, calibration, and training costs
+- Installation timeline, expected downtime, and ramp-to-steady-state curve
+- Financing terms vs cash purchase; impact on cash flow
+- Resale value estimates, lease options, and return policies
+- Warranty coverage, SLAs, and spare parts availability
+- Space, utility, and safety/compliance requirements
+- Integration/compatibility with existing equipment and software
+- Vendor lead time and delivery schedule
+- Depreciation method and tax treatment
+- Empirical evidence of expected throughput uplift (pilot or vendor trials)
+
+Red Flags:
+- Proceeding without demand validation or customer commitments
+- All-at-once purchase instead of staged rollout
+- Single-vendor lock-in without protections or alternatives
+- Underestimating installation downtime and training needs
+- Ignoring upstream/downstream constraints that limit throughput gains
+- No defined KPI gates, exit criteria, or contingency plan

@@ -1,0 +1,85 @@
+DECISION REPORT
+===============
+
+Decision: Purchase new equipment
+Type: capex_purchase
+Time Horizon: 18 months
+Cost: 12000.0
+Expected Upside: 22000.0
+Reversible: True
+
+RISK OUTPUT
+-----------
+Risk Score: 45/100
+Risk Band: MEDIUM
+
+Score Breakdown:
+- uncertainty: 8
+- knowledge_gap: 6
+- reversibility: 4
+- time_horizon: 15
+- financial_exposure: 12
+
+Scoring Notes:
+- The decision is reversible, which limits long-term downside.
+- Long time horizon increases the chance that assumptions will drift.
+- Financial exposure is non-trivial relative to upside.
+
+CONSISTENCY CHECK
+-----------------
+Consistent: True
+Severity: NONE
+Message: Recommendation is consistent with risk band.
+
+ANALYSIS
+--------
+Summary: Medium-risk, reversible capex. Upside depends on unvalidated demand and sustained utilization. Proceed by pivoting to a staged approach that validates throughput gains and demand before full commitment.
+Recommendation: PIVOT
+Confidence: 3/5
+
+Policy Notes:
+- Medium-risk decision may proceed only after scope reduction or staged execution.
+
+Risk Factors:
+- 18-month horizon increases assumption drift and market change risk
+- Demand assumptions not fully validated; utilization may fall short
+- Non-trivial $12k capex relative to $22k upside; payback sensitive to demand
+- Installation, training, and downtime could disrupt operations
+- Total cost of ownership (maintenance, consumables, space/power) not specified
+- Vendor lead times and support quality uncertain; potential single-vendor lock-in
+
+Upside Factors:
+- Higher throughput can increase revenue and reduce bottlenecks
+- Reversibility mitigates long-term downside (resale/return options)
+- Potential quality and reliability improvements reduce rework and delays
+- Operational data from a pilot can refine forecasts and improve future decisions
+
+Scenarios:
+- Best Case: Validated demand and strong utilization; throughput gains exceed plan; payback achieved quickly with durable margin improvement and minimal disruption.
+- Base Case: Moderate throughput lift with stable demand; payback within the horizon; minor process adjustments required; ROI aligns with expectations.
+- Worst Case: Demand fails to materialize; equipment underutilized; added maintenance and training costs; disruption offsets gains; exit via resale/return with partial cost recovery.
+
+Mitigations:
+- Run a time-boxed pilot or limited-scope deployment with clear go/no-go criteria
+- Use rental/lease or buy used with a vendor buyback/return clause
+- Define KPIs (throughput delta, utilization %, cost per unit, payback) and instrument measurement
+- Cap initial spend and phase procurement after meeting KPI thresholds
+- Obtain fixed-price installation, training, and maintenance terms
+- Validate power, space, and integration requirements before commitment
+- Identify secondary resale channels and document expected depreciation
+- Create a rollback plan to minimize operational disruption
+
+Missing Information:
+- Validated demand forecast and pipeline by segment
+- Quantified throughput improvement and utilization model
+- Total cost of ownership (maintenance, consumables, training, downtime)
+- Vendor terms: lead time, SLA, warranty, return/buyback options
+- Resale market liquidity and expected depreciation curve
+- Facility readiness (space, power, integration, safety/compliance)
+- Implementation timeline and resource plan
+
+Red Flags:
+- Proceeding to full purchase without validated demand/utilization
+- Unclear TCO and maintenance burden
+- Single-vendor dependence without strong SLA or exit terms
+- Operational downtime not accounted for in the plan

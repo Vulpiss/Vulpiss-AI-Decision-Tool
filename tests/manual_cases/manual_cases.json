@@ -1,0 +1,242 @@
+[
+  {
+    "id": "case_01",
+    "expected_risk_band": "low",
+    "expected_recommendation": "go",
+    "decision": {
+      "decision_title": "Buy additional monitors for analysts",
+      "decision_type": "operational_improvement",
+      "time_horizon_months": 3,
+      "cost": 3000,
+      "expected_upside": 12000,
+      "uncertainty_level": 1,
+      "knowledge_level": 5,
+      "reversible": true,
+      "notes": "Small operational improvement with immediate productivity impact."
+    }
+  },
+  {
+    "id": "case_02",
+    "expected_risk_band": "low",
+    "expected_recommendation": "pivot",
+    "decision": {
+      "decision_title": "Renew a small internal tool subscription",
+      "decision_type": "software_subscription",
+      "time_horizon_months": 6,
+      "cost": 5000,
+      "expected_upside": 4500,
+      "uncertainty_level": 1,
+      "knowledge_level": 5,
+      "reversible": true,
+      "notes": "Low-risk expense but limited upside versus cost."
+    }
+  },
+  {
+    "id": "case_03",
+    "expected_risk_band": "medium",
+    "expected_recommendation": "pivot",
+    "decision": {
+      "decision_title": "Launch local marketing campaign",
+      "decision_type": "marketing_initiative",
+      "time_horizon_months": 9,
+      "cost": 15000,
+      "expected_upside": 18000,
+      "uncertainty_level": 3,
+      "knowledge_level": 3,
+      "reversible": true,
+      "notes": "Moderate upside, moderate knowledge, campaign can be stopped."
+    }
+  },
+  {
+    "id": "case_04",
+    "expected_risk_band": "medium",
+    "expected_recommendation": "needs_more_data",
+    "decision": {
+      "decision_title": "Enter a niche B2B segment",
+      "decision_type": "market_expansion",
+      "time_horizon_months": 12,
+      "cost": 10000,
+      "expected_upside": 25000,
+      "uncertainty_level": 3,
+      "knowledge_level": 2,
+      "reversible": true,
+      "notes": "Potential upside is attractive, but segment knowledge is weak."
+    }
+  },
+  {
+    "id": "case_05",
+    "expected_risk_band": "high",
+    "expected_recommendation": "stop",
+    "decision": {
+      "decision_title": "Buy expensive specialized production machine",
+      "decision_type": "capex_purchase",
+      "time_horizon_months": 24,
+      "cost": 120000,
+      "expected_upside": 90000,
+      "uncertainty_level": 5,
+      "knowledge_level": 2,
+      "reversible": false,
+      "notes": "Large capex with unclear demand assumptions."
+    }
+  },
+  {
+    "id": "case_06",
+    "expected_risk_band": "high",
+    "expected_recommendation": "pivot",
+    "decision": {
+      "decision_title": "Pilot a new premium service offer",
+      "decision_type": "service_launch",
+      "time_horizon_months": 18,
+      "cost": 30000,
+      "expected_upside": 70000,
+      "uncertainty_level": 4,
+      "knowledge_level": 3,
+      "reversible": true,
+      "notes": "Opportunity exists, but demand is uncertain. Pilot possible."
+    }
+  },
+  {
+    "id": "case_07",
+    "expected_risk_band": "high",
+    "expected_recommendation": "needs_more_data",
+    "decision": {
+      "decision_title": "Partner with unknown foreign distributor",
+      "decision_type": "partnership",
+      "time_horizon_months": 12,
+      "cost": 20000,
+      "expected_upside": 60000,
+      "uncertainty_level": 5,
+      "knowledge_level": 1,
+      "reversible": true,
+      "notes": "Attractive upside but almost no verified information."
+    }
+  },
+  {
+    "id": "case_08",
+    "expected_risk_band": "medium",
+    "expected_recommendation": "pivot",
+    "decision": {
+      "decision_title": "Develop internal AI assistant",
+      "decision_type": "internal_innovation",
+      "time_horizon_months": 30,
+      "cost": 40000,
+      "expected_upside": 90000,
+      "uncertainty_level": 3,
+      "knowledge_level": 4,
+      "reversible": true,
+      "notes": "Potentially useful, but long delivery horizon."
+    }
+  },
+  {
+    "id": "case_09",
+    "expected_risk_band": "medium",
+    "expected_recommendation": "pivot",
+    "decision": {
+      "decision_title": "Expand proven sales process to another city",
+      "decision_type": "market_expansion",
+      "time_horizon_months": 8,
+      "cost": 25000,
+      "expected_upside": 50000,
+      "uncertainty_level": 3,
+      "knowledge_level": 5,
+      "reversible": true,
+      "notes": "Process already validated in current market."
+    }
+  },
+  {
+    "id": "case_10",
+    "expected_risk_band": "high",
+    "expected_recommendation": "stop",
+    "decision": {
+      "decision_title": "Replace all warehouse software at once",
+      "decision_type": "system_replacement",
+      "time_horizon_months": 10,
+      "cost": 80000,
+      "expected_upside": 85000,
+      "uncertainty_level": 2,
+      "knowledge_level": 4,
+      "reversible": false,
+      "notes": "Expected gain barely exceeds cost and rollback is difficult."
+    }
+  },
+  {
+    "id": "case_11",
+    "expected_risk_band": "medium",
+    "expected_recommendation": "go",
+    "decision": {
+      "decision_title": "Test weekend opening hours",
+      "decision_type": "operational_experiment",
+      "time_horizon_months": 2,
+      "cost": 4000,
+      "expected_upside": 9000,
+      "uncertainty_level": 3,
+      "knowledge_level": 3,
+      "reversible": true,
+      "notes": "Short experiment, easy to stop if results are weak."
+    }
+  },
+  {
+    "id": "case_12",
+    "expected_risk_band": "high",
+    "expected_recommendation": "stop",
+    "decision": {
+      "decision_title": "Sign 3-year office lease in a new location",
+      "decision_type": "long_term_commitment",
+      "time_horizon_months": 36,
+      "cost": 150000,
+      "expected_upside": 200000,
+      "uncertainty_level": 3,
+      "knowledge_level": 3,
+      "reversible": false,
+      "notes": "Potential upside exists, but the commitment is long and hard to undo."
+    }
+  },
+  {
+    "id": "case_13",
+    "expected_risk_band": "low",
+    "expected_recommendation": "needs_more_data",
+    "decision": {
+      "decision_title": "Try a small automation plugin",
+      "decision_type": "automation_tool",
+      "time_horizon_months": 4,
+      "cost": 2000,
+      "expected_upside": 5000,
+      "uncertainty_level": 3,
+      "knowledge_level": 2,
+      "reversible": true,
+      "notes": "Small decision, but evidence base is thin."
+    }
+  },
+  {
+    "id": "case_14",
+    "expected_risk_band": "low",
+    "expected_recommendation": "go",
+    "decision": {
+      "decision_title": "Expand proven training package to existing clients",
+      "decision_type": "offer_extension",
+      "time_horizon_months": 6,
+      "cost": 10000,
+      "expected_upside": 50000,
+      "uncertainty_level": 1,
+      "knowledge_level": 5,
+      "reversible": true,
+      "notes": "Offer already validated; expansion leverages existing channels."
+    }
+  },
+  {
+    "id": "case_15",
+    "expected_risk_band": "medium",
+    "expected_recommendation": "pivot",
+    "decision": {
+      "decision_title": "Introduce subscription pricing model",
+      "decision_type": "pricing_change",
+      "time_horizon_months": 12,
+      "cost": 18000,
+      "expected_upside": 30000,
+      "uncertainty_level": 3,
+      "knowledge_level": 3,
+      "reversible": false,
+      "notes": "Change may improve recurring revenue but could affect existing customer behavior."
+    }
+  }
+]
