@@ -191,6 +191,6 @@ Demonstrate:
 
 ## 📎 Author
 
-AI & Data Solutions Developer (in transition)
+Bartosz "Vulpiss" Warszawski
 
 ---
