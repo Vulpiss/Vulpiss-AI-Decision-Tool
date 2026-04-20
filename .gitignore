@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# IDE
+.idea/
+.vscode/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Database & temp
+*.db
+report.txt
+
+# OS
+.DS_Store
+Thumbs.db# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# IDE
+.idea/
+.vscode/
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Database & temp
+*.db
+report.txt
+
+# OS
+.DS_Store
+Thumbs.db
