@@ -43,3 +43,6 @@ report.txt
 # OS
 .DS_Store
 Thumbs.db
+
+# Progres
+progress.txt
